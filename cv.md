@@ -18,14 +18,13 @@ _My education is completely different from the field of programming - this is mu
     <li class="tab-conversation active">
       <a href="#" data-role="post-count" class="publisher-nav-color" data-nav="conversation">
         <span class="comment-count">0 comment</span>
-        <span class="comment-count-placeholder">comments</span>
       </a>
     </li>
     <li class="dropdown user-menu" data-role="logout">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
         <span class="dropdown-toggle-wrapper">
           <span>
-            Go
+           input
           </span>
         </span>
         <span class="caret"></span>
