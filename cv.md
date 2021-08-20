@@ -13,7 +13,8 @@ _My education is completely different from the field of programming - this is mu
 * Adobe Photoshop
 5. __Code example:__
 Peak array index KATA from CODEWARS: Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.
-```function peak(arr) {
+`
+function peak(arr) {
   for (let i = 1; i < arr.length - 1; i++) {
     let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
     let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
@@ -23,7 +24,8 @@ Peak array index KATA from CODEWARS: Given an array of ints, return the index su
   }
   return -1;
 }
-```
-6. __Courses:__ JavaScript/Front-end. Stage 0
+`
+6. __Courses:__ 
+* JavaScript/Front-end. Stage 0
 7. __Languages:__
 * English - Intermediate
