@@ -12,19 +12,28 @@ _My education is completely different from the field of programming - this is mu
 * VS Code
 * Adobe Photoshop
 5. __Code example:__
-Peak array index KATA from CODEWARS: Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.
-`
-function peak(arr) {
-  for (let i = 1; i < arr.length - 1; i++) {
-    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
-    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
-    if (leftSum === rightSum) {
-      return i;
-    }
-  }
-  return -1;
-}
-`
+```html
+<nav class="nav nav-primary">
+  <ul>
+    <li class="tab-conversation active">
+      <a href="#" data-role="post-count" class="publisher-nav-color" data-nav="conversation">
+        <span class="comment-count">0 comment</span>
+        <span class="comment-count-placeholder">comments</span>
+      </a>
+    </li>
+    <li class="dropdown user-menu" data-role="logout">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <span class="dropdown-toggle-wrapper">
+          <span>
+            Go
+          </span>
+        </span>
+        <span class="caret"></span>
+      </a>
+    </li>
+  </ul>
+</nav>
+```
 6. __Courses:__ 
 * JavaScript/Front-end. Stage 0
 7. __Languages:__
